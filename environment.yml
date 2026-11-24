@@ -1,4 +1,4 @@
-name: environment-test
+name: python-r-template
 
 channels:
   - conda-forge
@@ -6,7 +6,13 @@ channels:
 dependencies:
   - python=3.12
   - pip
+  - ipykernel
   - numpy
   - pandas
+  - matplotlib
+  - ruff
   - r-base=4.5
   - r-ggplot2
+  - r-languageserver
+  - r-irkernel
+  - r-styler
