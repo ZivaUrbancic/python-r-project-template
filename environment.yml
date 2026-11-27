@@ -2,6 +2,7 @@ name: python-r-template
 
 channels:
   - conda-forge
+  - bioconda
 
 dependencies:
   - python=3.12
@@ -16,3 +17,18 @@ dependencies:
   - r-languageserver
   - r-irkernel
   - r-styler
+  - r-png
+  - r-rcurl
+  - r-xml
+  - r-rsqlite
+  - samtools
+  - bioconductor-rhtslib
+  - zlib
+  - libxml2
+  - libpng
+  - curl
+  - libcurl
+  - xz
+  - bowtie2
+  - hisat2
+  - subread
